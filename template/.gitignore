@@ -9,3 +9,8 @@ npm-debug.log
 
 # Nuxt generate
 dist
+
+#idea
+.idea
+
+bash.exe.stackdump
