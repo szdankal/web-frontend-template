@@ -5,7 +5,7 @@ const cookieParser = require('cookie-parser')
 const wxLogin = require('../server/middleware/wx-login')
 const app = express()
 const host = process.env.HOST || '0.0.0.0'
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 80
 
 app.set('port', port)
 
@@ -24,7 +24,7 @@ if (config.dev) {
 }
 app.use(cookieParser())
 
-app.use(wxLogin)
+// app.use(wxLogin)
 // Give nuxt middleware to express
 app.use(nuxt.render)
 // Listen the server

@@ -11,6 +11,7 @@
 │  ├─images   #存放图片资源
 │  ├─jslibs   #存放个人或第三方类库资源
 │  └─styles   #存放样式文件
+├─api          #网络层
 ├─components  #存放可复用的组件
 ├─configs     #存放全局的配置文件
 ├─layouts     #nuxt.js定义默认模板及错误页的文件夹 
